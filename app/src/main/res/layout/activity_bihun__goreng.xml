@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Bihun_Goreng">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bihun" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Bihun Goreng"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+•	2 kotak bihun (kurleb 250gr) \n
+•	Bakso ikan+potongan ayam mentah \n
+•	1 telur \n
+•	1 sdm margarine \n
+•	1 sdm saos tiram \n
+•	sesuai selera Kecap manis \n
+•	Kecap asin \n
+•	Irisan sawi hijau dan daun bawang \n
+•	secukupnya Air \n
+•	Bumbu ulek : \n
+•	2 baw.merah \n
+•	3 baw.putih \n
+•	2 kemiri \n
+•	1/2 sdt ketumbar bubuk \n
+•	Merica agak banyak \n
+•	Royco, gula, garam
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1.	Rebus atau siram bihun dengan air panas sebentar saja (hanya untuk melembutkan, jangan terlalu lama nanti bihun jadi patah2) \n
+2.	Orak arik telur dengan margarine, angkat dan sisihkan \n
+3.	Tumis bumbu halus dengan sedikit minyak sampai harum \n
+4.	Masukkan ayam dan bakso, tumis hingga berubah warna \n
+5.	Masukkan sedikit air (kira2 100ml saja) lalu beri kecap manis, kecap asin, saos tiram dan rayco \n
+6.	Masukkan bihun dan orak arik telur dan beri kecap lagi jika warna masih pucat \n
+7.	Terakhir masukkan sawi dan daun bawang lalu masak hingga tercampur \n
+8.	Koreksi rasa lalu sajikan
+
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Bihun_Goreng"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

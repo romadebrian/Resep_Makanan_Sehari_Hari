@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Tahu_Kecap_Pedas">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tahu_kecap" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Tahu Kecap Pedas "
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+•  10 potong tahu putih \n
+•  3 siung bawang merah \n
+•  1 siung bawang putih  \n
+•  1 butir kemiri  \n
+•  5 buah cabe rawit  \n
+•  1 buah tomat matang  \n
+•  secukupnya garam  \n
+•  Secukupnya penyedap rasa  \n
+•  Secukupnya merica  \n
+•  Kecap  \n
+•  Minyak goreng  \n
+•  Air
+
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1.	Tahu di potong dadu lalu di rendam di air garam diamkan sekitar 30 menit /n
+2.	Goreng tahu yang sudah direndam hingga matang (jangan terlalu kering) lalu tiriskan /n
+3.	Haluskan kemiri, garam, merica, penyedap rasa, bawang putih, bawang merah, dan cabe rawit dengan ulekan /n
+4.	Potong tomat menjadi dadu kecil /n
+5.	Tumis bumbu yang telah dihaluskan tadi dengan minyak sedikit hingga wangi, setelah wangi, masukan tomat yang sudah di potong dadu, tumis hingga tomat hancur /n
+6.	Masukan tahu yang sudah di goreng ke dalam tumisan bumbu, aduk hingga merata dengan bumbu /n
+7.	Lalu berikan kecap secukupnya, aduk rata dan angkat. /n
+8.	Tahu kecap pedas siap dihidangkan
+
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Tahu_Kecap_Pedas"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

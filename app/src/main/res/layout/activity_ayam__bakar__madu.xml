@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Ayam_Bakar_Madu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/bakar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Ayam Bakar Madu"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+•	1 ekor ayam kampung,kemudian potong ayam menjadi 4 bagian yang kira-kira sama rata. \n
+•	Lengkuas sepanjang 2 cm lalu dimemarkan. \n
+•	Jahe sepanjang 1 cm kemudian memarkan. \n
+•	Asam jawa 1 1/2 sendok teh. \n
+•	1 1/2 sdm gula jawa. \n
+•	madu 4 sendok makan. \n
+•	penyedap rasa 1 sendok teh. \n
+•	garam 1 sendok makan. \n
+•	air bersih kira-kira 1 liter. \n
+•	air jeruk nipis sebanyak 1 sendok makan. \n
+•	margarin yang sudah dicairkan sebanyak 1 sendok makan. \n
+•	kecap manis 1 sendok makan. \n
+•	madu 3 sendok makan.
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1.	tumislah bumbu yang sudah dihaluskan, masukkanlah bahan lengkuas dan jahe, tumis hingga matang dan sampai mengeluarkan aroma harum. \n
+2.	masukkanlah ayam, tumislah sebentar saja hingga setengah matang lalu tambahkan air hingga ayam terendam air. \n
+3.	masukkanlah bahan gula jawa, madu,asam jawa, garam dan penyedap rasa. \n
+4.	Tutuplah rapat-rapat lalu biarkan ayam matang dan hingga bumbu meresap kedalam daging. \n
+5.	lalu, angkatlah daging ayam tadi kemudian tiriskan ayam. \n
+6.	campurkanlah semua bumbu yang dipakai untuk olesan, kemudian siapkan ayam tadi lalu olesilah dengan bumbu olesan hingga merata menggunakan alat kuas. \n
+7.	bakarlah ayam diatas bara api pembakaran sampai bumbu olesan di daging ayam mengering, olesilah lagi dengan bumbu olesan tadi. \n
+8.	Lakukanlah tahap ini berulang-ulang sampai ayam menjadi matang merata dengan warna yang berubah menjadi warna kecoklatan. \n
+9.	Setelah ayam madu berwarna kecoklatan angkat ayam.
+
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Ayam_Bakar_Madu"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
