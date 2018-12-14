@@ -12,9 +12,6 @@ Fitur Fitur
   + Langkah Langkah
   + Vidio Youtube (Internet)
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-
 <p> Screenshot : </p>
 <div>
   <center>
