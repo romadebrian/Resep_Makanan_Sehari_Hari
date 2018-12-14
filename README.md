@@ -6,15 +6,11 @@ jangan lupa download file PHP dan Databasenya (SQL)
 
 Fitur Fitur
   + Splash Screen
-  + Login (blum database)
   + Menu Utama
-  + Read data from database mysql
-  + Create data from database mysql
-  + Update data from database mysql
-  + Delete data from database mysql
-  + About
-  + Logut
-  + Exit
+  + Gambar Makanan
+  + Bahan Bahan
+  + Langkah Langkah
+  + Vidio Youtube (Internet)
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -25,4 +21,4 @@ Fitur Fitur
   <p align="center"><img src=https://roma3.000webhostapp.com/Screenshot/poster%20andro.jpg width=300 height=533 /></p>
   
   <p align="center"><strong> Repository By Roma Debrian </strong></p>
-</div>
+</div> 
