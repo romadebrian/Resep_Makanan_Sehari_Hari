@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash_Screen">
+        <activity android:name=".Splash_Screen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +35,9 @@
         <activity android:name=".Bakso_Bakar" />
         <activity android:name=".Ayam_Bakar_Madu" />
         <activity android:name=".Youtube" />
-        <activity android:name=".Daftar_Resep" />
+        <activity android:name=".Daftar_Resep"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Telur_Gulung" />
         <activity android:name=".Pizza" />
         <activity android:name=".Ayam_Bakar_Kecap" />
