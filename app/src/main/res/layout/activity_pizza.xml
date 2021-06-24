@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Pizza">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Pizza"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan Roti  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+• 1/2 kg Tepung terigu protein sedang \n
+• 5 gram fermipan \n
+• 3 sdm minyak sayur \n
+• 1/2 sdt garam \n
+• 2 sdm gula pasir \n
+• 250 ml Air
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan Topping "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+• Keju Mozarela \n
+• Saus Tomat \n
+• Bawang bombay iris halus \n
+• Toping favorit kamu, bisa bakso, sosis, ayam suwir, ikan tuna, daging asap, dll
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+• 3 butir telur ayam \n
+• 50ml air mineral \n
+• 1 sdm tepung maizena \n
+• Garam secukupnya \n
+• Merica secukupnya \n
+• Kaldu bubuk secukupnya \n
+• Minyak goreng setengah panci
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+Persiapan \n
+1.	Campurkan tepung terigu, fermipan, gula pasir, garam dan minyak sayur sampai tercampur. \n
+2. Tambahkan air sedikit demi sedikit sambil uleni sampai membentuk adonan. \n
+3. Istirahatkan adonan di dalam wadah yang di tutup kain agar adonan elastis \n
+4. Tumis bawang bombay hingga harum, tambahkan topping pilihan kamu ke dalam tumisan, \n
+5. Tuang saus tomat dan saus cabai sesuai selera. \n
+6. Gilas atau giling adonan yang telah diistirahatkan secukupnya dengan ketebalan sesuai selera. Buat lebih tipis apabila kamu si penyuka makanan renyah.
+\n \n
+Cara Memasak \n
+1. Panaskan wajan dan lelehkan 1 sdm mentega. \n
+2. Letakkan pizza diatasnya, taburkan dengan keju mozarella yang telah dipotong-potong. \n
+3. Tutup wajan selama memasak agar keju meleleh sempurna. \n
+4. Angkat dan sajikan selagi hangat
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Pizza"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

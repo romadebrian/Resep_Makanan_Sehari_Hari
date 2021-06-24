@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Nugget_Ayam">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nuget" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Nugget Ayam"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+•	Daging ayam (fillet paha) 300 g, giling halus \n
+•	Telur ayam 3 butir \n
+•	Tepung roti 100g \n
+•	Tepung terigu 100g \n
+•	Bawang putih 2 siung, haluskan \n
+•	Kaldu bubuk 1 sdt \n
+•	Garam 1 sdt \n
+•	Gula 1 sdt \n
+•	Merica 1 sdt
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1.	Kocok 2 butir telur, lalu masukkan bawang putih yang telah dihaluskan, kaldu bubuk, garam, gula, dan merica. Kocok hingga merata. \n
+2.	Tuang tepung terigu pada wadah (mangkuk), lalu campur dengan kocokan telur pertama. \n
+3.	Masukkan daging ayam yang sudah digiling halus. Aduk rata. \n
+4.	Bentuk adonan sesuai yang Anda inginkan. Bisa memanjang atau bulat. Tidak usah mencetak adonan terlalu besar agar nanti ketika digoreng dapat matang dengan sempurna. \n
+5.	Kukus selama 15 menit. \n
+6.	Sambil menunggu nugget dikukus, tuang tepung roti dalam wadah, dan siapkan nampan kosong. \n
+7.	Siapkan satu butir telur yang kemudian dikocok. \n
+8.	Nugget yang telah dikukus diamkan dengan suhu ruangan selama 10 menit. \n
+9.	Masukkan nugget ke dalam kocokan telur lalu masukkan dalam tepung roti hingga terbalut sempurna dengan tepung roti, kemudian taruh di nampan yang telah disediakan. Masukkan satu per satu nugget dalam telur lalu tepung roti. \n
+10.	Masukkan nugget yang telah dibalur dengan tepung roti dalam kulkas selama 20 menit, agar tepung roti menempel sempurna. \n
+11.	Setelah usai, panaskan minyak goreng. \n
+12.	Goreng nugget hingga berwarna kuning keemasan. 
+
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Nugget_Ayam"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

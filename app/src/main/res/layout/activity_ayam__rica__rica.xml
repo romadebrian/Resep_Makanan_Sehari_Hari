@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Ayam_Rica_Rica">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ayamrica" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Ayam Bakar Rica Rica"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan dan Bumbu Rica  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+Bahan \n
+• 1 ekor ayam kampung, cuci bersih lalu potong menjadi 8 bagian \n
+• 1 sdt air perasan jeruk nipis \n
+• 1 ¾ sdt garam, atau sesuai kebutuhan \n
+• ½ sdt gula pasir, atau sesuai kebutuhan \n
+• 4 lembar daun jeruk, cuci bersih lalu buang tulang daunnya \n
+• 2 batang serai, cuci bersih lalu memarkan agar aromanya keluar \n
+• 300 ml air \n
+• Minyak goreng atau minyak sayur secukupnya untuk menumis \n \n
+Bumbu Rica \n
+• 6 buah cabai merah, buang tangkainya \n
+• 1 buah tomat, cuci bersih \n
+• 8 siung bawang merah \n
+• 3 siung bawang putih \n
+• 2 cm jahe ukuran sedang, kupas kulit luarnya
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1. Pertama, lumuri daging ayam yang telah dipotong dengan campuran 1 sdt garam dan perasan jeruk nipis hingga merata. Lalu, diamkan selama sekitar 15 menit sampai meresap, sisihkan. \n
+2. Tumbuk kasar semua bahan untuk bumbu rica-rica. Siapkan penggorengan dan panaskan minyak lalu tumis bumbu yang telah ditumbuk kasar sampai harum. Tambahkan daun jeruk dan serai, lalu aduk kembali. \n
+3. Masukkan daging ayam yang sudah disiapkan tadi ke dalam tumisan, aduk hingga berubah warna dan bumbunya meresap. Selanjutnya, tuangkan sisa garam dan gula pasir lalu kembali aduk hingga merata. Tuangkan air dan biarkan hingga bumbunya meresap. Aduk sesekali agar peresapannya maksimal lalu angkat. \n
+4. Ayam Rica-Rica siap disajikan!
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Ayam_Rica_Rica"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

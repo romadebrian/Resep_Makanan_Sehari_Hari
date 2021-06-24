@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Daftar_Resep">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:theme="?android:attr/listViewWhiteStyle">
+
+                    <ImageButton
+                        android:id="@+id/GmbrPisang_Goreng_Nugget"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/pisang_nugget" />
+
+                    <TextView
+                        android:id="@+id/Pisang_Goreng_Nugget"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Pisang Goreng Nugget"
+                        android:textColor="@android:color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrSoto_Ayam_Special"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/soto_ayam" />
+
+                    <TextView
+                        android:id="@+id/Soto_Ayam_Special"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/bgtext"
+                        android:text="Soto Ayam Spesial"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrPindang_Ikan_Tongkol_Bumbu_Sarden"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/pindang_ikan_tongkol" />
+
+                    <TextView
+                        android:id="@+id/Pindang_Ikan_Tongkol_Bumbu_Sarden"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="Pindang Ikan Tongkol Bumbu Sarden"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrTelur_Crispy"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/telur" />
+
+                    <TextView
+                        android:id="@+id/Telur_Crispy"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:text="Telur Crispy"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrTahu_Kecap_Pedas"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/tahu_kecap" />
+
+                    <TextView
+                        android:id="@+id/Tahu_Kecap_Pedas"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:text="Tahu Kecap Pedas"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrNasi_Goreng"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/nasgot" />
+
+                    <TextView
+                        android:id="@+id/Nasi_Goreng"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:text="Nasi Goreng"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrGurame_Saus_Tiram"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/gurame" />
+
+                    <TextView
+                        android:id="@+id/Gurame_Saus_Tiram"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Gurame Saus Tiram"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrBihun_Goreng"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/bihun_goreng" />
+
+                    <TextView
+                        android:id="@+id/Bihun_Goreng"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:text="Bihun Goreng"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrGulai_Tunjang"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/gulai" />
+
+                    <TextView
+                        android:id="@+id/Gulai_Tunjang"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Gulai Tunjang"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrMartabak_Mini"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/marta" />
+
+                    <TextView
+                        android:id="@+id/Martabak_Mini"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Martabak Mini"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrTumis_Pedas_Jagung_Muda_Ati_Ayam"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/cah" />
+
+                    <TextView
+                        android:id="@+id/Tumis_Pedas_Jagung_Muda_Ati_Ayam"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@color/bgtext"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingRight="10dp"
+                        android:text="Tumis Pedas Jagung Muda Ati Ayam"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrNugget_Ayam"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/nuget" />
+
+                    <TextView
+                        android:id="@+id/Nugget_Ayam"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Nugget Ayam"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold"  />
+
+                    <ImageButton
+                        android:id="@+id/GmbrIkan_Kembung_Kuning"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ikan_kembung" />
+
+                    <TextView
+                        android:id="@+id/Ikan_Kembung_Kuning"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Ikan Kembung Kuning"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrBakso_Bakar"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/bakso" />
+
+                    <TextView
+                        android:id="@+id/Bakso_Bakar"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Bakso Bakar"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrAyam_Bakar_Madu"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/bakar" />
+
+                    <TextView
+                        android:id="@+id/Ayam_Bakar_Madu"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Ayam Bakar Madu"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrTelur_Gulung"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/telurgulung" />
+
+                    <TextView
+                        android:id="@+id/Telur_Gulung"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Telur Gulung"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/Gmbr_Pizza"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/pizza" />
+
+                    <TextView
+                        android:id="@+id/Pizza"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Pizza"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrAyam_Bakar_Kecap"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ayambakar" />
+
+                    <TextView
+                        android:id="@+id/Ayam_Bakar_Kecap"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Ayam Bakar Kecap"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrTumis_Kangkung"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/kangkung" />
+
+                    <TextView
+                        android:id="@+id/Tumis_Kangkung"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Tumis Kangkung"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/GmbrAyam_Rica_Rica"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ayamrica" />
+
+                    <TextView
+                        android:id="@+id/Ayam_Rica_Rica"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="0dp"
+                        android:paddingRight="10dp"
+                        android:background="@color/bgtext"
+                        android:text="Ayam Bakar Rica Rica"
+                        android:textColor="@android:color/white"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+        </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.pradita.resepmakananseharihari">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_iconn"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_Screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pindang_Ikan_Tongkol_Bumbu_Sarden" />
+        <activity android:name=".Soto_Ayam_Spesial" />
+        <activity android:name=".Telur_Crispy" />
+        <activity android:name=".Pisang_Goreng_Nugget" />
+        <activity android:name=".Tahu_Kecap_Pedas" />
+        <activity android:name=".Nasi_Goreng" />
+        <activity android:name=".Gurame_Saus_Tiram" />
+        <activity android:name=".Bihun_Goreng" />
+        <activity android:name=".Gulai_Tunjang" />
+        <activity android:name=".Martabak_Mini" />
+        <activity android:name=".Tumis_Pedas_Jagung_Muda_Ati_Ayam" />
+        <activity android:name=".Nugget_Ayam" />
+        <activity android:name=".Ikan_Kembung_Kuning" />
+        <activity android:name=".Bakso_Bakar" />
+        <activity android:name=".Ayam_Bakar_Madu" />
+        <activity android:name=".Youtube" />
+        <activity android:name=".Daftar_Resep"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Telur_Gulung" />
+        <activity android:name=".Pizza" />
+        <activity android:name=".Ayam_Bakar_Kecap" />
+        <activity android:name=".Tumis_Kangkung" />
+        <activity android:name=".Ayam_Rica_Rica"></activity>
+    </application>
+
+</manifest>

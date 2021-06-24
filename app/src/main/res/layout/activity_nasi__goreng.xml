@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tampilanbg"
+    tools:context="id.ac.pradita.resepmakananseharihari.Nasi_Goreng">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:theme="?android:attr/listViewWhiteStyle">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nasgot" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bgtext"
+                android:gravity="center_vertical|center"
+                android:text="Nasi Goreng"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bahan Bahan  "
+                android:textColor="@android:color/black"
+                android:textIsSelectable="false"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+•	Nasi 600 gr \n
+•	Daging ayam 125 g. Cincang halus \n
+•	Telur 1 butir. Kocok \n
+•	Bawang merah 5 siung \n
+•	Bawang putih 3 siung \n
+•	Cabai merah 3 buah \n
+•	Daun bawang 1 batang. Iris halus \n
+•	Kecap manis 2 sdm \n
+•	Garam 1 sdt \n
+•	Merica sdt \n
+•	Minyak
+
+"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Langkah Langkah  "
+                android:textColor="@color/hitam"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bahan_bahan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:lineSpacingMultiplier="2"
+                android:text="
+1.	Masukkan bawang merah, bawang putih, dan cabai merah ke dalam cobek kemudian haluskan. \n
+2.	Goreng telur menjadi orak-arik lalu sisihkan. \n
+3.	Bumbu yang telah dihaluskan kemudian di tumis dengan minyak secukupnya. Tumis terus hingga harum. \n
+4.	Masukkan ayam cincang, telur, dan daun bawang ke dalam bumbu. Tumis lagi hingga merata. \n
+5.	Tambahkan kecap, garam, dan merica. Aduk hingga rata. \n
+6.	Baru kemudian masukkan nasi dan aduk hingga rata. \n
+7.	Nasi goreng telah jadi dan sajikan pada piring saji.
+
+"
+                android:textColor="@color/hitam" />
+
+            <ImageButton
+                android:id="@+id/Youtube_Nasi_Goreng"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vidio" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
