@@ -1,7 +1,6 @@
-# Aplikasi_Akademik
-Aplikasi android studio akademik CRUD Mysql
+# Aplikasi_Resep_Makanan_Sehari_Hari
 
-Gunakan VCS Android Studio untuk menginpor codingan ini
+Gunakan IDE Android Studio untuk menginpor codingan ini
 jangan lupa download file PHP dan Databasenya (SQL)
 
 Fitur Fitur
