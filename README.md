@@ -14,7 +14,7 @@ Fitur Fitur
 <p> Screenshot : </p>
 <div>
   <center>
-  <p align="center"><img src=https://roma3.000webhostapp.com/Screenshot/poster%20andro.jpg width=300 height=533 /></p>
+  <p align="center"><img src=https://github.com/romadebrian/Resep_Makanan_Sehari_Hari/blob/master/Screenshot/Project4.jpg width=300 height=533 /></p>
   
   <p align="center"><strong> Repository By Roma Debrian </strong></p>
 </div> 
